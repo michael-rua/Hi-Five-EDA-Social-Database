@@ -41,10 +41,11 @@ function viewProfile(id, db = connection) {
             email: result[0].email,
             phone: result[0].phone,
             facebook: result[0].facebok,
-            instagram: result[0].email,
-
-
-
+            instagram: result[0].instagram,
+            linkedin: result[0].linkedin,
+            ps4_xbox: result[0].ps4_xbox,
+            github: result[0].github,
+            twitter: result[0].twitter
 
         }))
 }
