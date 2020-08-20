@@ -1,22 +1,16 @@
 exports.up = (knex) => {
-    exports.up = (knex) => {
-        return knex.schema.createTable('socials', (table) => {
-            table.increments('id').primary()
-            table.string('Facebook')
-            table.string('Intagram')
-            table.integer('Likedin')
-            table.integer('PS4/Xbox')
-            table.integer('GitHub')
-            table.integer('Twitter')
-            table.integer('user_id')
+    return knex.schema.createTable('socials', (table) => {
+        table.increments('id').primary()
+        table.string('facebook')
+        table.string('instagram')
+        table.string('likedin')
+        table.string('ps4_Xbox')
+        table.string('gitHub')
+        table.string('twitter')
+        table.integer('user_id').references(users.id)
+    })
+}
 
-
-        })
-    }
-
-
-};
-
-exports.down = function(knex) {
-
-};
+exports.down = (knex) => {
+    return knex.schema.dropTable('socials')
+}

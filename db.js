@@ -19,32 +19,43 @@ function getUser(id, db = connection) {
 
 function viewProfile(id, db = connection) {
     return db('users')
-        .join('profiles', 'users.id', 'profiles.user_id')
+        .join('socials', 'users.id', 'socials.user_id')
         .where('users.id', id)
         .select(
             'users.id as userId',
-            'profiles.user_id as profileId',
+            'soials.user_id as profileId',
             'name',
             'email',
-            'url',
-            'bio'
+            'phone',
+            'facebook',
+            'instagram',
+            'likedin',
+            'ps4_xbox',
+            'github',
+            'twitter'
+
         )
         .then((result) => ({
             id: result[0].userId,
             name: result[0].name,
             email: result[0].email,
-            url: result[0].url,
-            bio: result[0].bio
+            phone: result[0].phone,
+            facebook: result[0].facebok,
+            instagram: result[0].email,
+
+
+
+
         }))
 }
 
-function addProfile(name, email, url, bio, db = connection) {
+function addProfile(name, email, phone, facebook, instagram, linkedin, ps4Xbox, github, Twitter, db = connection) {
     return db('users')
-        .insert({ email, name })
+        .insert({ email, name, phone })
 
     .then((result) => {
         console.log(result) // this result is just id from users table and it is a result of promises
         const user_id = result[0]
-        return db('profiles').insert({ url, bio, user_id })
+        return db('socials').insert({ facebook, instagram, linkedin, ps4Xbox, github, Twitter, user_id })
     })
 }
