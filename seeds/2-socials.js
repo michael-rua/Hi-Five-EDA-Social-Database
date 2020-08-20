@@ -1,7 +1,7 @@
-exports.seed = function(knex, Promise) {
-    return knex('socials').insert([
-        { id: 77701, facebook: 'Ambitious Aardvark', Instagram: 'Ambitious Aardvark', LinkedIn: 'Ambitious Aardvark', ps4Xbox: "Aardvark123", Github: "Aardvark", Twitter: 'Ambitious Aardvark', user_id: 1, },
-        { id: 77702, facebook: 'Bamboozled Baboon', Instagram: 'Bamboozled Baboon', LinkedIn: 'Bamboozled Baboon', ps4Xbox: "Baboon", Github: "Baboon", Twitter: 'Bamboozled Baboon', user_id: 2, },
-        { id: 77703, facebook: 'Curious Capybara', Instagram: 'Curious Capybara', LinkedIn: 'Curious Capybara', ps4Xbox: "Capybara", Github: "Capybara", Twitter: 'Curious Capybara', user_id: 3, }
-    ])
+exports.seed = (knex) => {
+  return knex('socials').insert([
+    { id: 1, facebook: 'Michael Rua', instagram: 'michaelrua', linkedIn: 'michaelrua', ps4_xbox: 'Aviator11', github: 'michael-rua', twitter: '@michaeljrua', user_id: 1 },
+    { id: 2, facebook: 'Bamboozled Baboon', instagram: 'Bamboozled Baboon', linkedIn: 'Bamboozled Baboon', ps4_xbox: 'Baboon', github: 'Baboon', twitter: 'Bamboozled Baboon', user_id: 2 },
+    { id: 3, facebook: 'Curious Capybara', instagram: 'Curious Capybara', linkedIn: 'Curious Capybara', ps4_xbox: 'Capybara', github: 'Capybara', twitter: 'Curious Capybara', user_id: 3 }
+  ])
 }
