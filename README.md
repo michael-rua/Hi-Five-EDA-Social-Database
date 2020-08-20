@@ -1,5 +1,5 @@
 
-# Hi Five
+# Hi Fives Social Database 
 ### MVP User request
 
 * As a user I want to be able to connect with all my friends from Bootcamp and have them connect with me and each other. As I am a coder I want to be able to have them all in a fancy database so I can contact or connect with each of my friends when I want to. This database will be part of a live app/website that we can all access at any time.
