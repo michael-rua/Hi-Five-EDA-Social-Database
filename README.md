@@ -37,9 +37,9 @@
 
 ### *STRETCH ROUTE GOALS*
 *This would use many-many relationships*
-- [ ] -A group route to list each grouping
-- [ ] -A group:id route that would link to the 
-- [ ] -A edit profile form route
+- [ ] A group route to list each grouping
+- [ ] A group:id route that would link to the specific social list 
+- [ ] An edit profile form route
 
 
 
