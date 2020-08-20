@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>EDA Phase 1 Express Boilerplate</title>
-  </head>
-  <body>
-    <ul>
+
+<head>
+  <title>Social Database</title>
+</head>
+
+<body>
+  <ul>
     {{#each users}}
-      <li>{{name}} ({{email}})</li>
+    <li><a href="/profiles/{{id}}">{{name}}</a> ({{email}})</li>
     {{/each}}
-    </ul>
-  </body>
+  </ul>
+</body>
+
 </html>
+
+<button class="button" type="button"><a class="link" href="/addProfile">Add new Profile</a></button>
