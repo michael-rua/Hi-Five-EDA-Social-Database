@@ -1,7 +1,7 @@
 exports.seed = (knex) => {
     return knex('users').insert([{
         id: 1,
-        name: 'michael rua',
+        name: 'Michael Rua',
         email: 'michaelrua1@gmail.com',
         phone: '0211560222'
     }, {

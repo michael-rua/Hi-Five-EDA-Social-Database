@@ -5,21 +5,11 @@
     background-size: cover;
     margin: auto;
     text-align: center;
-<<<<<<< HEAD
+    height: 100vh;
 }
 
 .indexList {
     top: 10rem;
-||||||| 732dec3
-  }
-  .indexList {
-    top: 10rem;
-=======
-    height: 100vh;
-  }
-  .indexList {
-    top: 15rem;
->>>>>>> 24954e68292b21b7e5e04a42b120e495cd64f29c
     color: red;
     font-size: 1.6em;
     position: relative;
@@ -36,50 +26,29 @@
     position: relative;
     margin: auto;
     font-size: 4em;
-<<<<<<< HEAD
+}
+
+.indexButton {
+    position: relative;
+    top: 10 rem;
 }
 
 
 /* end of index page css */
 
-||||||| 732dec3
-  }
-  /* end of index page css */
-=======
-  }
-
-  .indexButton {
-
-    top: 70vh;
-  }
-  
-  /* end of index page css */
->>>>>>> 24954e68292b21b7e5e04a42b120e495cd64f29c
 
 /*Home page css*/
 
 .homeBody {
-    background-image: url(./image/FW-AUCKLAND-Onetangi-Pohutukawa.jpg) no-repeat;
+    background-image: url(/images/FW-AUCKLAND-Onetangi-Pohutukawa.jpg) no-repeat;
     background-size: cover;
     margin: auto;
+    height: 100vh
 }
 
 .homePohutukawa {
-<<<<<<< HEAD
     padding: 20px, 20px, 20px, 20px;
     text-align: center;
-||||||| 732dec3
-  padding:20px, 20px, 20px, 20px;
-  background-image: url("/public/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
-  background-color: white;
-  text-align: center;
-=======
-  padding:20px, 20px, 20px, 20px;
-  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
-  background-color: white;
-  text-align: center;
-  height: 100vh;
->>>>>>> 24954e68292b21b7e5e04a42b120e495cd64f29c
 }
 
 .homeWelcome {
@@ -98,6 +67,7 @@
 
 .homeAccess {
     float: left;
+    text-align: center;
 }
 
 .homeAccess a {
@@ -121,7 +91,7 @@
 }
 
 
-/* .homeButton {
+ .homeButton {
   background-color: #4CAF50;
   border: none;
   color: white;
