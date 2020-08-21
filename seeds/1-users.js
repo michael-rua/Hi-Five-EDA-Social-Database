@@ -6,13 +6,18 @@ exports.seed = (knex) => {
         phone: '0211560222'
     }, {
         id: 2,
-        name: 'Bamboozled Baboon',
-        email: 'baboon@example.org',
-        phone: '02129509847'
+        name: 'Gideon Cooper',
+        email: 'Gideon.cooper@hotmail.com',
+        phone: '02108586647'
     }, {
         id: 3,
-        name: 'Curious Capybara',
-        email: 'capybara@example.org',
-        phone: '02129668408'
+        name: 'Tatiana Bernon',
+        email: 'tatiana.bernon@gmail.com',
+        phone: '0273832501'
+    }, {
+        id: 4,
+        name: 'Ben Mitchell',
+        email: 'ben.mitchell11@hotmail.co.nz',
+        phone: '0211497695'
     }])
 }
