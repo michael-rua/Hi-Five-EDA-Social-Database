@@ -3,7 +3,7 @@ exports.up = (knex) => {
         table.increments('id').primary()
         table.string('name')
         table.string('email')
-        table.integer('phone')
+        table.string('phone')
     })
 }
 
