@@ -49,6 +49,24 @@
 .homePohutukawa {
     padding: 20px, 20px, 20px, 20px;
     text-align: center;
+  padding:20px, 20px, 20px, 20px;
+  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
+  background-color: white;
+  text-align: center;
+  height: 100vh;
+
+
+  padding:20px, 20px, 20px, 20px;
+  background-image: url("/public/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
+  background-color: white;
+  text-align: center;
+
+  padding:20px, 20px, 20px, 20px;
+  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
+  background-color: white;
+  text-align: center;
+  height: 100vh;
+
 }
 
 .homeWelcome {
@@ -63,6 +81,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #4CAF50;
+
 }
 
 .homeAccess {
@@ -186,4 +205,3 @@ button[class="formsubmit"]:hover {
     background-image: url(./images/facebook-scalable-graphics-icon-facebook-logo-facebook-logo-png-clip-art.png)
 }
 
-height:
