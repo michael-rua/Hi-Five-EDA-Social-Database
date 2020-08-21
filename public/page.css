@@ -7,18 +7,19 @@
 
 /* index page css */
 .indexBody {
-    background-image: url(./image/matrix.jpg);
+    background-image: url('/images/matrix.jpg');
     background-size: cover;
     margin: auto;
     text-align: center;
+    height: 100vh;
   }
   .indexList {
-    top: 10rem;
+    top: 15rem;
     color: red;
     font-size: 1.6em;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 50%;
     font-family: 'Press Start 2P', cursive;
   }
   
@@ -31,6 +32,12 @@
     margin: auto;
     font-size: 4em;
   }
+
+  .indexButton {
+
+    top: 15rem;
+  }
+  
   /* end of index page css */
 
 /*Home page css*/
