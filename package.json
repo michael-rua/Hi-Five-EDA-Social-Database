@@ -4,11 +4,11 @@
     "description": "Express boilerplate with Knex.js",
     "main": "index.js",
     "scripts": {
-        "start": "node index",
+        "start": "node .",
         "dev": "nodemon index",
         "knex": "knex",
         "test": "jest",
-        "postinstall": "knex migrate:latest"
+        "postinstall": "knex migrate:latest; knex seed:run"
     },
     "repository": {
         "type": "git",
