@@ -1,19 +1,58 @@
-<h1 class="form-title">Add a new user profile</h1>
 
-<form class="form" action="/addProfile" method="POST">
- <label for="name">Name:</label><br>
- <input id="name" name="name" required><br><br>
+     <div class= "homeNavigation">
+    <ul class= "homeLinks">
+        <li class= "homeAccess"><a href="/">Home</a></li>
+        <li class= "homeAccess"><a href="/profiles">Profiles</a></li>
+        <li class= "homeAccess"><a href="/addProfile">Add a profile</a></li>
+    </ul>
+</div>
 
- <label for="email">Email:</label><br>
- <input id="email" name="email" required><br><br>
+<body class="formback">
+    <div class="newcontainer">
+      <div class="formcontainer">
+        <form class="form" action="/addProfile" method="POST">
+          <h1 class="form-title">Sign up</h1>
+          <label for="name">Name:</label><br />
+          <input id="name" name="name" required /><br /><br />
 
- <label for="bio">Bio</label><br>
- <input id="bio" name="bio" required><br><br>
+          <label for="email">Email:</label><br />
+          <input id="email" name="email" required /><br /><br />
 
- <label for="url">URL</label><br>
- <input id="url" name="url" required><br><br>
+          <label for="phone">Phone:</label><br />
+          <input id="phone" name="phone" required /><br /><br />
 
- <input type="submit" name="Add Profile" id="submit">
-</form>
+          <label for="facebook">Facebook:</label><br />
+          <input id="facebook" name="facebook" required /><br /><br />
 
-<button class="button" type="button"><a class="link" href="/">Home</a></button>
+          <label for="instagram">Instagram:</label><br />
+          <input id="instagram" name="instagram" required /><br /><br />
+
+          <label for="linkedin">Linkedin:</label><br />
+          <input id="linkedin" name="linkedin" required /><br /><br />
+
+          <label for="ps4_user">PS4 Gamertag:</label><br />
+          <input id="ps4_user" name="ps4_user" required /><br /><br />
+
+          <label for="steam_user">Steam Gamertag:</label><br />
+          <input id="steam_user" name="steam_user" required /><br /><br />
+
+          <label for="xbox_user">Xbox Gamertag:</label><br />
+          <input id="xbox_user" name="xbox_user" required /><br /><br />
+
+          <label for="github">Github:</label><br />
+          <input id="github" name="github" required /><br /><br />
+
+          <label for="twitter">Twitter:</label><br />
+          <input id="twitter" name="twitter" required /><br /><br />
+          <button
+            type="submit"
+            name="Add Profile"
+            id="submit"
+            class="formsubmit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
