@@ -7,18 +7,19 @@
 
 /* index page css */
 .indexBody {
-    background-image: url(./image/matrix.jpg);
+    background-image: url('/images/matrix.jpg');
     background-size: cover;
     margin: auto;
     text-align: center;
+    height: 100vh;
   }
   .indexList {
-    top: 10rem;
+    top: 15rem;
     color: red;
     font-size: 1.6em;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 50%;
     font-family: 'Press Start 2P', cursive;
   }
   
@@ -31,14 +32,21 @@
     margin: auto;
     font-size: 4em;
   }
+
+  .indexButton {
+
+    top: 70vh;
+  }
+  
   /* end of index page css */
 
 /*Home page css*/
 .homePohutukawa {
   padding:20px, 20px, 20px, 20px;
-  background-image: url("/public/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
+  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
   background-color: white;
   text-align: center;
+  height: 100vh;
 }
 
 .homeWelcome {
