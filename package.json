@@ -3,6 +3,9 @@
     "version": "0.1.4",
     "description": "Express boilerplate with Knex.js",
     "main": "index.js",
+    "engines": {
+        "node": "12.x"
+    },
     "scripts": {
         "start": "node index",
         "dev": "nodemon index",
@@ -24,6 +27,7 @@
         "express": "^4.17.1",
         "express-handlebars": "^4.0.6",
         "knex": "^0.21.5",
+        "node": "^14.8.0",
         "nodemon": "^2.0.4",
         "pg": "^8.3.2",
         "sqlite3": "^5.0.0"
