@@ -7,4 +7,4 @@ exports.seed = (knex) => {
 
 
     ])
-}
+}np
