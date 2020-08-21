@@ -36,8 +36,8 @@ router.get('/addProfile', (req, res) => {
 })
 
 router.post('/addProfile', (req, res) => {
-  const { name, email, phone, facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter, bio } = req.body
-  db.addProfile(name, email, phone, facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter, bio)
+  const { name, email, phone, facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter,} = req.body
+  db.addProfile(name, email, phone, facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter,)
     .then(res.redirect('/profiles'))
     .catch(err => {
       console.log(err.message)

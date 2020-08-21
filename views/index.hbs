@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>Social Database</title>
-</head>
-
-<body>
-  <ul>
-    {{#each users}}
-    <li><a href="/profiles/{{id}}">{{name}}</a> ({{email}})</li>
-    {{/each}}
+   <div class="indexBody">
+       
+  <h1 class="indexh1">
+Profiles in the Database
+  </h1>
+  
+  <ul class='indexList'>
+  {{#each users}}
+    <li><a href="/profiles/{{id}}">{{name}}</a><br></li>
+  {{/each}}
   </ul>
-</body>
 
-</html>
+</div>
 
-<button class="button" type="button"><a class="link" href="/addProfile">Add new Profile</a></button>
+
+
+<button class="indexButton" type="button"><a class="link" href="/addProfile">Add new Profile</a></button>
+</div>

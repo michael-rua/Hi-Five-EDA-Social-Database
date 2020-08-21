@@ -34,7 +34,8 @@ function viewProfile (id, db = connection) {
       'steam_user',
       'xbox_user',
       'github',
-      'twitter'
+      'twitter',
+      
 
     )
     .then(result => ({
@@ -51,18 +52,18 @@ function viewProfile (id, db = connection) {
       xbox_user: result[0].xbox_user,
       github: result[0].github,
       twitter: result[0].twitter,
-      bio: bio[0].bio
+     
 
     }))
 }
 
-function addProfile (name, email, phone, facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter, bio, db = connection) {
+function addProfile (name, email, phone, facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter,  db = connection) {
   return db('users')
     .insert({ email, name, phone })
 
     .then(result => {
       console.log(result) // this result is just id from users table and it is a result of promises
       const user_id = result[0]
-      return db('socials').insert({ facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter, bio, user_id })
+      return db('socials').insert({ facebook, instagram, linkedin, ps4_user, steam_user, xbox_user, github, twitter, user_id })
     })
 }

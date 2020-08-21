@@ -9,7 +9,6 @@ exports.up = (knex) => {
         table.string('xbox_user')
         table.string('github')
         table.string('twitter')
-        table.string('bio')
         table.integer('user_id').references('users.id')
     })
 }
