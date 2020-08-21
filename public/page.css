@@ -1,18 +1,13 @@
-
-
-
-
-
-
-
 /* index page css */
+
 .indexBody {
     background-image: url(./image/matrix.jpg);
     background-size: cover;
     margin: auto;
     text-align: center;
-  }
-  .indexList {
+}
+
+.indexList {
     top: 10rem;
     color: red;
     font-size: 1.6em;
@@ -20,9 +15,9 @@
     margin: auto;
     width: 60%;
     font-family: 'Press Start 2P', cursive;
-  }
-  
-  .indexh1 {
+}
+
+.indexh1 {
     top: 5rem;
     font-family: 'Space Mono', monospace;
     color: whitesmoke;
@@ -30,47 +25,65 @@
     position: relative;
     margin: auto;
     font-size: 4em;
-  }
-  /* end of index page css */
+}
+
+
+/* end of index page css */
+
 
 /*Home page css*/
+
+.homeBody {
+    background-image: url(./image/FW-AUCKLAND-Onetangi-Pohutukawa.jpg) no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
 .homePohutukawa {
-  padding:20px, 20px, 20px, 20px;
-  background-image: url("/public/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
-  background-color: white;
-  text-align: center;
+    padding: 20px, 20px, 20px, 20px;
+    text-align: center;
 }
 
 .homeWelcome {
-  color: #f44445;
-
+    color: #f44445;
+    margin: auto;
+    text-shadow: 2px 2px 8px black;
 }
 
 .homeLinks {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #4CAF50;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
 }
 
 .homeAccess {
-  float: left;
+    float: left;
 }
 
 .homeAccess a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .homeAccess a:hover:not(.active) {
-  background-color: #945200;
+    background-color: #945200;
 }
 
-.homeButton {
+.homeWhakatauki {
+    text-shadow: 2px 2px 8px #4CAF50
+}
+
+.bk {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v481-bb-ning-11_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c27cf7fc64343cf7e8cb0641230a74d3);
+}
+
+
+/* .homeButton {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -81,65 +94,88 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-}
+} 
 /*End of home page css*/
 
+
 /*new profile*/
+
 .formback {
-  background-color: antiquewhite;
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
+
 .newcontainer {
-  max-width: 500px;
-  margin: auto;
+    max-width: 500px;
+    margin: auto;
 }
+
 .form-title {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
+
 .formcontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  text-align: center;
-  margin-top: 2rem;
-  border-radius: 20px;
-  background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 20px;
+    background-color: #f4f4f4;
 }
 
 input {
-  padding: 3px;
-  border-radius: 10px;
-  border: 1px solid gray;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
+
 input:focus {
-  outline: none;
+    outline: none;
 }
+
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .link:visited {
-  color: none;
+    color: none;
 }
+
 .formsubmit {
-  padding: 3px 30px;
-  margin-bottom: 30px;
-  transition: all 0.5s;
-  border: none;
-  border-radius: 10px;
-  background-color: rgb(106, 236, 106);
+    padding: 3px 30px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(106, 236, 106);
 }
+
 button[class="formsubmit"]:hover {
-  background-color: rgb(52, 202, 52);
+    background-color: rgb(52, 202, 52);
 }
+
+
+/*end of new profile*/
 
 
 /* Profiles */
 
 .name {
-
+    font-family: "bowlby one sc";
 }
+
+.info {
+    font-family: "zcool kuaile"
+}
+
+.facebook {
+    background-image: url(./images/facebook-scalable-graphics-icon-facebook-logo-facebook-logo-png-clip-art.png)
+}
+
+height:
