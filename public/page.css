@@ -1,19 +1,30 @@
 /* index page css */
 
 .indexBody {
-    background-image: url(./image/matrix.jpg);
+    background-image: url('/images/matrix.jpg');
     background-size: cover;
     margin: auto;
     text-align: center;
+<<<<<<< HEAD
 }
 
 .indexList {
     top: 10rem;
+||||||| 732dec3
+  }
+  .indexList {
+    top: 10rem;
+=======
+    height: 100vh;
+  }
+  .indexList {
+    top: 15rem;
+>>>>>>> 24954e68292b21b7e5e04a42b120e495cd64f29c
     color: red;
     font-size: 1.6em;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 50%;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -25,11 +36,25 @@
     position: relative;
     margin: auto;
     font-size: 4em;
+<<<<<<< HEAD
 }
 
 
 /* end of index page css */
 
+||||||| 732dec3
+  }
+  /* end of index page css */
+=======
+  }
+
+  .indexButton {
+
+    top: 70vh;
+  }
+  
+  /* end of index page css */
+>>>>>>> 24954e68292b21b7e5e04a42b120e495cd64f29c
 
 /*Home page css*/
 
@@ -40,8 +65,21 @@
 }
 
 .homePohutukawa {
+<<<<<<< HEAD
     padding: 20px, 20px, 20px, 20px;
     text-align: center;
+||||||| 732dec3
+  padding:20px, 20px, 20px, 20px;
+  background-image: url("/public/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
+  background-color: white;
+  text-align: center;
+=======
+  padding:20px, 20px, 20px, 20px;
+  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
+  background-color: white;
+  text-align: center;
+  height: 100vh;
+>>>>>>> 24954e68292b21b7e5e04a42b120e495cd64f29c
 }
 
 .homeWelcome {

@@ -1,16 +1,24 @@
    <div class="indexBody">
-       
+     <div class= "homeNavigation">
+    <ul class= "homeLinks">
+        <li class= "homeAccess"><a href="/">Home</a></li>
+        <li class= "homeAccess"><a href="./profiles">Profiles</a></li>
+        <li class= "homeAccess"><a href="./addProfile">Add a profile</a></li>
+    </ul>
+</div>
+     
   <h1 class="indexh1">
 Profiles in the Database
   </h1>
   
   <ul class='indexList'>
   {{#each users}}
-    <li><a href="/profiles/{{id}}">{{name}}</a><br></li>
+    <li><a href="/profiles/{{id}}" style="color: red">{{name}}</a><br>
+    <br></li>
   {{/each}}
   </ul>
 
-</div>
+
 
 
 
