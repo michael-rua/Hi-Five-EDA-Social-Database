@@ -46,12 +46,11 @@
   background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
   background-color: white;
   text-align: center;
-  top: 70vh
 }
 
 .homeWelcome {
   color: #f44445;
-
+  text-align: center;
 }
 
 .homeLinks {
@@ -60,6 +59,7 @@
   padding: 0;
   overflow: hidden;
   background-color: #4CAF50;
+  text-align: center;
 }
 
 .homeAccess {
