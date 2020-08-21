@@ -40,10 +40,11 @@
 /*Home page css*/
 
 .homeBody {
-    background-image: url(/images/FW-AUCKLAND-Onetangi-Pohutukawa.jpg) no-repeat;
+    background-image: url(/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg) no-repeat;
     background-size: cover;
     margin: auto;
-    height: 100vh
+    height: 100vh;
+    text-align: center;
 }
 
 .homePohutukawa {
@@ -133,6 +134,7 @@
     box-sizing: border-box;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    height: 10
 }
 
 .newcontainer {
