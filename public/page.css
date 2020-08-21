@@ -51,22 +51,8 @@
     padding: 20px, 20px, 20px, 20px;
     text-align: center;
   padding:20px, 20px, 20px, 20px;
-  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
-  background-color: white;
   text-align: center;
-  height: 100vh;
-
-
-  padding:20px, 20px, 20px, 20px;
-  background-image: url("/public/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
-  background-color: white;
-  text-align: center;
-
-  padding:20px, 20px, 20px, 20px;
-  background-image: url("/images/print-pohutukawa-flower-golden-sun-light-scaled.jpg");
-  background-color: white;
-  text-align: center;
-  height: 100vh;
+ 
 
 }
 
@@ -108,6 +94,7 @@
 
 .bk {
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v481-bb-ning-11_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c27cf7fc64343cf7e8cb0641230a74d3);
+    height: 100vh;
 }
 
 
@@ -204,6 +191,7 @@ button[class="formsubmit"]:hover {
 }
 
 .facebook {
-    background-image: url(./images/facebook-scalable-graphics-icon-facebook-logo-facebook-logo-png-clip-art.png)
+    background-image: url(./images/facebook-scalable-graphics-icon-facebook-logo-facebook-logo-png-clip-art.png) no-repeat;
+    
 }
 
